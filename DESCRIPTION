@@ -1,0 +1,12 @@
+Package: stats28
+Title: Package for common and major statistical decisions and calculation.
+Version: 0.0.0.9000
+Authors@R: 
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package includes function to estimate (both point and CI) the paramters of Binomial, Poisson, Exponential, Normal, Weibull distribution. This package also contains function to perform detailed CRD, RCBD and LSD. There is also a function for test of hypothesis.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.0
