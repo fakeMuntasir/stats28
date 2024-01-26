@@ -1,4 +1,3 @@
-
 #' This function performs Complete Randomize Design on a given data set.
 #'
 #' @param a Parameter a is the number of treatment levels for the given experiment.

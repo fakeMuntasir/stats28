@@ -26,7 +26,8 @@ Binomial <- function(data,cL,trials){
   confidence_interval = c(lower_bound,upper_bound)
 
   result <- c(p = est_p,
-              ci = confidence_interval
+              ci_lower = confidence_interval[1],
+              ci_upper = confidence_interval[2]
   )
 
   return(result)

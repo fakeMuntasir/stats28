@@ -24,7 +24,8 @@ Normal <- function(data,cL){
 
   result <- c(Mean = est_mean,
               SD = est_sd,
-              ci = confidence_interval)
+              ci_lower = confidence_interval[1],
+              ci_upper = confidence_interval[2])
 
   return(result)
 }
